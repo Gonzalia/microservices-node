@@ -42,7 +42,7 @@ Remember save this jwt token
 
 - Movies endpoint
 
-1. `POST | http://127.0.0.1:3000/movies/:userId` with body `{title: str, rating: number}` for example `{title: "Harry Potter", rating: 4}` and the jwt token on Authorization header, returns register id, title, rating, userId and createdAt values.
+1. `POST | http://127.0.0.1:3000/movies` with body `{title: str, rating: number}` for example `{title: "Harry Potter", rating: 4}` and the jwt token on Authorization header, returns register id, title, rating, userId and createdAt values.
 
 So..
 
