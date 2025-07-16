@@ -1,6 +1,6 @@
 # Microservices example
 
-This is a project in Node JS with Express JS, where it simulates an example of how a backend developer with serverless architecture works.
+This is a project in Node.js with Express.js, simulating how a backend developer structures microservices architecture.
 
 - Step 1: Install dependencies in each project
 
