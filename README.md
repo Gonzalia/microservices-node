@@ -32,7 +32,7 @@ This is a project in Node.js with Express.js, simulating how a backend developer
 
 # API DOCS
 
-- Users endpoints
+- Auth endpoints
 
 1. `POST | http://127.0.0.1:3000/auth/register` with body `{name: str, email: str, password: str}` <- Returns user's id, email, and a _jwt token_
 
