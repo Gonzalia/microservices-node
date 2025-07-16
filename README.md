@@ -21,9 +21,12 @@ This is a project in Node JS with Express JS, where it simulates an example of h
 ---
 
 - Step 4: Now, run all the servers
+
   a. On `/gateway` run `npm run dev`
-  a. On `/auth` run `npm run dev`
-  a. On `/movies` run `npm run dev`
+
+  b. On `/auth` run `npm run dev`
+
+  c. On `/movies` run `npm run dev`
 
 ---
 
