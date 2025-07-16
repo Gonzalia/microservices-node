@@ -3,7 +3,7 @@ import { Router } from "express";
 
 const router = Router();
 
-const AUTH_SERVICE_URL = "http://localhost:3001";
+const AUTH_SERVICE_URL = "http://localhost:3001"; // In a real application, this should be an environment variable
 
 router.post("/register", async (req, res) => {
   try {

@@ -2,7 +2,7 @@ import axios from "axios";
 import { Router } from "express";
 const router = Router();
 
-const MOVIES_SERVICE_URL = "http://localhost:3002";
+const MOVIES_SERVICE_URL = "http://localhost:3002"; // In a real application, this should be an environment variable
 
 router.post("/", async (req, res) => {
   try {
