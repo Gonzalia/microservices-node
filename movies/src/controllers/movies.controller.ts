@@ -19,7 +19,8 @@ export const createMovie = async (
     if (isNaN(rating) || rating < 1 || rating > 5) {
       res
         .status(400)
-        .json({ error: "La puntuación debe ser un número entre 1 y 5" });
+        .json({ error: "The rating must be a number between 1 and 5." });
+      return;
     }
 
     const movie = await prisma.movie.create({
